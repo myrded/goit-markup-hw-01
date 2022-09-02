@@ -1,0 +1,72 @@
+/* колір основного текста #757575 */
+/* колір вторинного текста #212121 */
+/* білий #FFFFFF */
+/* акценти #2196F3 */
+/* колір фона #FFFFFF */
+/* вторичний колір фона #F5F4FA */
+
+:root {
+    --trx:#2196F3;
+}
+
+.page {
+    background-color: #FFFFFF;
+    
+}
+
+/* Site nav */
+
+.logo {
+    color: #000000;
+}
+
+.logo-studio {
+    color: var(--trx);
+}
+
+.menu-nav .link {
+    color: #212121;
+}
+
+.menu-nav .link:hover, 
+.menu-nav .link:focus {
+    color: #2196F3;
+}
+
+.mailtel-nav .link, 
+.mailtel-nav .link:focus {
+    color: #757575;
+}
+
+.mailtel-nav .link:hover {
+   color: #2196F3; 
+}
+
+/* Hero section */
+
+
+
+/* Section-features */
+
+
+
+
+
+/* Section What do we do */
+.section-titel {
+    color: #212121;
+}
+
+.link {
+
+}
+
+/* Section Our team */
+
+
+
+
+
+.list {
+    list-style: none;
+}
